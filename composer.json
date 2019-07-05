@@ -1,0 +1,21 @@
+{
+  "name": "visualsoft/arr_helper",
+  "description": "A series of helpers for working with arrays.",
+  "keywords": ["php","language","array","helper"],
+  "type": "library",
+  "license": "None",
+  "authors": [
+    {
+      "name": "chrisevansvsoft",
+      "email": "chris.evans@visualsoft.co.uk"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "ArrHelper\\": "src/"
+    }
+  }
+}
